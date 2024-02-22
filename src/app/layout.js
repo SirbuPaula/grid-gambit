@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import GameField from "@/app/TableComponent/page";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
