@@ -4,9 +4,8 @@ import React from "react";
 import ColumTable from "@/app/ColumComponent/page";
 
 
-
-export default function GameField() {
+export default function GameField({matrix, refreshBoard}) {
     return (
-        <ColumTable/>
+        <ColumTable matrix={matrix} refreshBoard={refreshBoard}/>
     );
 }
